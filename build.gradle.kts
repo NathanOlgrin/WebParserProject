@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("org.jsoup:jsoup:1.22.1")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.20.0")
+    implementation("com.microsoft.playwright:playwright:1.43.0")
 }
 
 tasks.test {
